@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello Async SaberDB!",
+      "views": 2
+    },
+    {
+      "id": 1,
+      "title": "Hello Async SaberDB!",
+      "views": 0
+    }
+  ]
+}
