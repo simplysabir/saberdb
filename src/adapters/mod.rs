@@ -1,4 +1,8 @@
+mod json_file;
+
 use crate::core::Result;
+
+pub use json_file::JsonFileSync;
 
 /// Synchronous adapter trait for storage backends
 pub trait AdapterSync<T>: Send + Sync {
