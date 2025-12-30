@@ -1,8 +1,8 @@
 [package]
 name = "saberdb"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2024"
-authors = ["SaberDB Contributors"]
+authors = ["Sabir Khan <simplysabir@gmail.com>"]
 description = "A blazingly fast, simple JSON database for Rust"
 license = "MIT"
 repository = "https://github.com/simplysabir/saberdb"

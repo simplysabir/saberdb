@@ -19,7 +19,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-saberdb = "1.0"
+saberdb = "1.1"
 ```
 
 ## Quick Start
@@ -228,6 +228,8 @@ where
 
 - **`JsonFileSync`** - Sync JSON file adapter
 - **`JsonFile`** - Async JSON file adapter
+- **`MemorySync`** - Sync in-memory adapter (perfect for testing)
+- **`Memory`** - Async in-memory adapter (perfect for testing)
 
 ### Traits
 
@@ -240,11 +242,14 @@ Check out the `examples/` directory:
 
 - `basic.rs` - Synchronous CRUD operations
 - `async_basic.rs` - Asynchronous CRUD operations
+- `memory.rs` - Using in-memory adapters for testing
 
 Run examples:
+
 ```bash
 cargo run --example basic
 cargo run --example async_basic
+cargo run --example memory
 ```
 
 ## Testing
